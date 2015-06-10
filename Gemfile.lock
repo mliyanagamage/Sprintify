@@ -12,6 +12,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.3.8)
     builder (3.2.2)
+    colorize (0.7.7)
     i18n (0.7.0)
     json (1.8.3)
     mime-types (2.6.1)
@@ -35,6 +36,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  colorize
   ruby-trello
 
 BUNDLED WITH
