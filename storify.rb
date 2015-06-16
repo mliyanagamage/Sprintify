@@ -114,13 +114,8 @@ end
 
 check_list_name = "Acceptance Criteria"
 
-
-#Trello::Checklist.create({name: "Test", board_id: source_board.id})
-
-counter = 0
-
 new_cards.each do |key,values|
-  current_card = Trello::Card.create(name: key, list_id: dest_list.id, desc: values.join('\n'))
+  current_card = Trello::Card.create(name: key, list_id: dest_list.id, desc: values.join('%0A').gsub("-",""))
   current_checklist = Trello::Checklist.create(name: check_list_name, board_id: source_board.id)
   current_card.add_checklist(current_checklist)
 end
