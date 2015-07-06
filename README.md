@@ -1,6 +1,6 @@
 # Sprintify
 
-This script turns your trello cards which represent your story cards with user stories into sprint cards.
+This script turns your Trello cards which represent your story cards with user stories into sprint cards.
 
 ## How it Works
 
@@ -26,11 +26,11 @@ Another User Story Title (Points for Story)
 
 The card must be in the above form or weird things may happen. 
 
-When the script is run, the title of the user story is covertered into the title of a sprint card with the acceptance criteria turned into a checklist.
+When the script is run, the title of the user story is converted into the title of a sprint card with the acceptance criteria turned into a checklist.
 
 ## Installation
 
-Make sure you have ruby 2.2.2 installed to use the script.
+Make sure you have ruby 2.2.2 installed to use the script. You will also need the [Ruby Trello](https://github.com/jeremytregunna/ruby-trello) gem.
 
 To install, clone this repository and run
 
@@ -42,7 +42,7 @@ Then you are ready to go!
 
 ## Usage
 
-In order to use your script you must have the proper API keys. The script will read your api keys from the environment, the following variables must be present for the script to run.
+In order to use your script you must have the proper API keys. The script will read your API keys from the environment, the following variables must be present for the script to run.
 
 - `DEV_KEY` - represents the developers public key
 - `MEMEBER_KEY` - represents the members key
@@ -60,7 +60,7 @@ and follow the steps as prompted to have you story cards changed into sprint car
 ## Caveats
 
 - Make sure the correct format is in the description of the story cards
-- Any dashes in the description (-) will be stripped out so avoid using them unless the represent a markdown bullet point
+- Any dashes in the description (-) will be stripped out so avoid using them unless they represent a markdown bullet point
 
 
 ## Special Thanks
