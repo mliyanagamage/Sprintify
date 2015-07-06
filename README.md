@@ -1,6 +1,6 @@
 # Sprintify
 
-This script turn your trello cards which represent you story cards with user stories into sprint cards.
+This script turns your trello cards which represent your story cards with user stories into sprint cards.
 
 ## How it Works
 
@@ -30,13 +30,15 @@ When the script is run, the title of the user story is covertered into the title
 
 ## Installation
 
+Make sure you have ruby 2.2.2 installed to use the script.
+
 To install, clone this repository and run
 
 ```
 $ bundle install
 ```
 
-
+Then you are ready to go!
 
 ## Usage
 
