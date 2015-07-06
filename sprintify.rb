@@ -3,7 +3,7 @@
 require 'trello'
 require 'colorize'
 
-print "Welcome to Storify\n".green
+print "Welcome to Sprintify\n".green
 
 if ENV["DEV_KEY"].nil? || ENV["MEMBER_KEY"].nil?
   print "Dev and Members keys are not present in environment\n".red
